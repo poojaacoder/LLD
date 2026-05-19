@@ -504,7 +504,10 @@ Beginners often put `register_provider`, `find_match`, `calculate_price`, `send_
 
 ## 11. Problems That Use This Template
 
-Uber/Ola, Zomato/Swiggy, Amazon/Flipkart, Job Portals, and Splitwise all follow this exact template with minor variations. Specific problem solutions will be added here as they are built out — each one will point back to the building blocks above and highlight what is different.
+Solved problems in this folder:
+
+- [Uber / Ride Sharing](uber.md) — nearest-driver matching, trip lifecycle, surge pricing
+- [Splitwise](splitwise.md) — expense splitting strategies, debt simplification algorithm
 
 > When you encounter a new marketplace problem, come back to this template first. Identify which parts map to Provider, Consumer, Listing, MatchingStrategy, Transaction, and PricingStrategy. The skeleton from Section 6 is your starting point — extend it, do not rewrite from scratch.
 

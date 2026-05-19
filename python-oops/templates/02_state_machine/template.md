@@ -409,7 +409,9 @@ Three options, from simple to complex:
 
 ## 10. Problems Using This Template
 
-- [Elevator System](elevator_system.md)
+- [Elevator System](elevator_system.md) — SCAN algorithm, two heaps, dispatcher
+- [ATM Machine](atm.md) — card lifecycle, PIN validation, cash dispenser
+- [Vending Machine](vending_machine.md) — item selection, payment, change calculation
 
 ---
 

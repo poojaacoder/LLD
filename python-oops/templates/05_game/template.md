@@ -488,6 +488,15 @@ Extend `Player` with a new subclass (e.g., `MinimaxAIPlayer`) and pass it into t
 
 ---
 
+
+---
+
+## 11. Problems Using This Template
+
+- [Tic-Tac-Toe](tic_tac_toe.md) — N×N board, win checker, undo with Command pattern
+- [Chess](chess.md) — piece hierarchy, move validation per type, check/checkmate detection
+- [Snake and Ladder](snake_and_ladder.md) — BoardEntity abstraction, testable dice, overshoot handling
+
 ## 10. Common Mistakes
 
 1. **Putting win-condition logic inside Board.**

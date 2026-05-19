@@ -413,6 +413,14 @@ if __name__ == "__main__":
 
 ---
 
+
+---
+
+## 11. Problems Using This Template
+
+- [Twitter / Social Media Feed](twitter.md) — post, follow, home timeline, push vs pull feed, trending hashtags
+- [Stack Overflow](stack_overflow.md) — questions/answers, voting mixin, reputation system, role-based access
+
 ## 10. Common Mistakes
 
 1. **Putting feed logic inside `User`.**

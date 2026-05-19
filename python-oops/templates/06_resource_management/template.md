@@ -376,7 +376,7 @@ cache.get(3)        # returns "c"
 
 The following interview problems are all variations of the resource management template:
 
-- **LRU Cache** — the canonical form; tests eviction policy + OrderedDict
-- **Rate Limiter** — tests allocation policy; choose token bucket for burst tolerance or sliding window for strict limits
-- **Logging System** — tests Singleton + Observer + Chain of Responsibility; focus on handler filtering
-- **File System** — tests access control (permissions per user/group) + capacity (disk quota) + hierarchical resource organisation
+- [LRU Cache](lru_cache.md) — the canonical form; eviction policy + OrderedDict, 3 implementations
+- [Rate Limiter](rate_limiter.md) — Token Bucket, Fixed Window, Sliding Window with thread safety
+- [Logging System](logging_system.md) — Singleton + Chain of Responsibility + Observer for handlers
+- File System *(coming soon)* — access control, disk quota, hierarchical organisation

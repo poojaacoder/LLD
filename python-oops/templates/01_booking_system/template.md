@@ -486,9 +486,11 @@ Interviewers do not just want working code — they want to see that you can jus
 
 Practice applying the skeleton above to these three real interview problems:
 
-- [Parking Lot](parking_lot.md)
-- [Library Management System](library_management.md)
-- [Movie Ticket Booking](bookmyshow.md)
+- [Parking Lot](parking_lot.md) — multi-floor, spot sizes, pricing strategy
+- [Library Management System](library_management.md) — Book vs BookItem, fine calculation
+- [Movie Ticket Booking](bookmyshow.md) — Seat vs ShowSeat, atomic blocking
+- [Hotel Management](hotel_management.md) — date-range availability, check-in/out lifecycle
+- [Flight Booking](flight_booking.md) — seat map, group booking, waitlist
 
 Each problem file shows which parts of this template stay the same and which parts you customise for the domain.
 
