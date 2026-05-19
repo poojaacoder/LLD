@@ -25,15 +25,32 @@ Work through these files in order. Each one builds on the last.
 | 11 | [11_design_patterns.md](11_design_patterns.md) | Design Patterns | Singleton, Factory, Builder, Decorator, Adapter, Observer, Strategy, Command |
 | 12 | [12_dataclasses.md](12_dataclasses.md) | Dataclasses | Reduce boilerplate, `frozen=True`, `field()`, `__post_init__`, `asdict()` |
 | 13 | [13_lld_patterns.md](13_lld_patterns.md) | LLD Interview Patterns | Modeling checklist, enums for state machines, DI containers, template method |
-| — | `lld_problems/` | Worked LLD Problems | Full solutions: Parking Lot, Library System, Elevator, Movie Ticket Booking |
+
+
+---
+
+## LLD Problem Templates
+
+Most LLD interview problems fall into one of 6 templates. Learn the template first, then the problems become much easier. Each folder contains a `template.md` (skeleton + explanation) and worked problems that use it.
+
+| Template | Folder | Problems inside | Key patterns |
+|---|---|---|---|
+| Booking System | [templates/01_booking_system/](templates/01_booking_system/template.md) | Parking Lot, Library, BookMyShow | Strategy, State, Facade |
+| State Machine | [templates/02_state_machine/](templates/02_state_machine/template.md) | Elevator System | State, Enum + transition dict |
+| Marketplace / Matching | [templates/03_marketplace_matching/](templates/03_marketplace_matching/template.md) | Uber, Zomato, Splitwise *(coming soon)* | Strategy, Observer, Facade |
+| Social / Feed | [templates/04_social_feed/](templates/04_social_feed/template.md) | Twitter, LinkedIn *(coming soon)* | Observer, Strategy, Facade |
+| Game | [templates/05_game/](templates/05_game/template.md) | Chess, Tic-Tac-Toe *(coming soon)* | Command, Strategy, Template Method |
+| Resource Management | [templates/06_resource_management/](templates/06_resource_management/template.md) | LRU Cache, Rate Limiter *(coming soon)* | Singleton, Strategy, Chain of Responsibility |
+
+> **Tip:** Before reading any problem solution, read the template first. You will recognise the skeleton immediately and spend your energy on the domain logic, not the structure.
 
 ---
 
 ## How to Use This Guide
 
-1. **Read linearly first.** Files 01–03 are the foundation. Do not skip them even if you think you know OOP — the "Why" explanations and common-mistake sections are worth it.
+1. **Read linearly first.** Files 01–13 are the foundation. Do not skip them even if you think you know OOP — the "Why" explanations and common-mistake sections are worth it.
 2. **Type the code yourself.** Reading is passive. Open a Python file, type the examples, and run them. Break things on purpose.
-3. **Before each LLD problem**, read the "5-step framework" below and practice applying it to the problem statement before looking at the solution.
+3. **Before each LLD problem**, read the template for that problem category first, then apply the 5-step framework below before looking at the solution.
 4. **Use `13_lld_patterns.md`** as a compact cheatsheet once you have worked through the numbered files — it has the full quick-reference at the bottom.
 
 ---
