@@ -15,16 +15,16 @@ Work through these files in order. Each one builds on the last.
 | 01 | [01_classes_and_objects.md](01_classes_and_objects.md) | Classes and Objects | Blueprints, instances, `__init__`, class vs instance variables, `__repr__` vs `__str__`, name mangling |
 | 02 | [02_four_pillars.md](02_four_pillars.md) | Four Pillars of OOP | Encapsulation, Inheritance, Polymorphism, Abstraction — with analogies and code |
 | 03 | [03_magic_methods.md](03_magic_methods.md) | Magic / Dunder Methods | Make your objects behave like built-in types: comparisons, containers, context managers, arithmetic |
-| 04 | `04_properties_and_descriptors.md` | Properties and Descriptors | `@property`, getters/setters, computed attributes, descriptor protocol |
-| 05 | `05_class_static_instance.md` | Class vs Static vs Instance | When to use each method type, alternative constructors with `@classmethod` |
-| 06 | `06_inheritance_deep_dive.md` | Inheritance Deep Dive | MRO, C3 linearization, `super()`, mixins, cooperative multiple inheritance |
-| 07 | `07_abstract_classes.md` | Abstract Classes and Interfaces | `ABC`, `@abstractmethod`, abstract properties, enforcing contracts |
-| 08 | `08_protocols.md` | Protocols (Structural Subtyping) | Duck typing made explicit, `Protocol` vs `ABC`, `runtime_checkable` |
-| 09 | `09_composition_over_inheritance.md` | Composition over Inheritance | Why deep hierarchies break, how to use HAS-A instead of IS-A |
-| 10 | `10_solid_principles.md` | SOLID Principles | SRP, OCP, LSP, ISP, DIP — with before/after examples |
-| 11 | `11_design_patterns.md` | Design Patterns | Singleton, Factory, Builder, Decorator, Adapter, Observer, Strategy, Command |
-| 12 | `12_dataclasses.md` | Dataclasses | Reduce boilerplate, `frozen=True`, `field()`, `__post_init__`, `asdict()` |
-| 13 | `13_lld_interview_patterns.md` | LLD Interview Patterns | Modeling checklist, enums for state machines, DI containers, template method |
+| 04 | [04_properties.md](04_properties.md) | Properties and Descriptors | `@property`, getters/setters, computed attributes, descriptor protocol |
+| 05 | [05_class_static_instance.md](05_class_static_instance.md) | Class vs Static vs Instance | When to use each method type, alternative constructors with `@classmethod` |
+| 06 | [06_inheritance.md](06_inheritance.md) | Inheritance Deep Dive | MRO, C3 linearization, `super()`, mixins, cooperative multiple inheritance |
+| 07 | [07_abstract_classes.md](07_abstract_classes.md) | Abstract Classes and Interfaces | `ABC`, `@abstractmethod`, abstract properties, enforcing contracts |
+| 08 | [08_protocols.md](08_protocols.md) | Protocols (Structural Subtyping) | Duck typing made explicit, `Protocol` vs `ABC`, `runtime_checkable` |
+| 09 | [09_composition.md](09_composition.md) | Composition over Inheritance | Why deep hierarchies break, how to use HAS-A instead of IS-A |
+| 10 | [10_solid_principles.md](10_solid_principles.md) | SOLID Principles | SRP, OCP, LSP, ISP, DIP — with before/after examples |
+| 11 | [11_design_patterns.md](11_design_patterns.md) | Design Patterns | Singleton, Factory, Builder, Decorator, Adapter, Observer, Strategy, Command |
+| 12 | [12_dataclasses.md](12_dataclasses.md) | Dataclasses | Reduce boilerplate, `frozen=True`, `field()`, `__post_init__`, `asdict()` |
+| 13 | [13_lld_patterns.md](13_lld_patterns.md) | LLD Interview Patterns | Modeling checklist, enums for state machines, DI containers, template method |
 | — | `lld_problems/` | Worked LLD Problems | Full solutions: Parking Lot, Library System, Elevator, Movie Ticket Booking |
 
 ---
@@ -34,7 +34,7 @@ Work through these files in order. Each one builds on the last.
 1. **Read linearly first.** Files 01–03 are the foundation. Do not skip them even if you think you know OOP — the "Why" explanations and common-mistake sections are worth it.
 2. **Type the code yourself.** Reading is passive. Open a Python file, type the examples, and run them. Break things on purpose.
 3. **Before each LLD problem**, read the "5-step framework" below and practice applying it to the problem statement before looking at the solution.
-4. **Use the reference file** (`python_oops_lld.md`) as a compact cheatsheet once you have worked through the numbered files.
+4. **Use `13_lld_patterns.md`** as a compact cheatsheet once you have worked through the numbered files — it has the full quick-reference at the bottom.
 
 ---
 
