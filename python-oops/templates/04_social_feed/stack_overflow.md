@@ -703,3 +703,8 @@ so.delete_post(mod, a_charlie)
 | **Observer** (mentioned) | Reputation updates | In a large system, vote events would be published to a bus and `ReputationService` would listen — decouple producers from consumers |
 | **Enumeration** | `VoteType`, `UserRole`, `ReputationEvent` | Prevent magic strings and numbers; make invalid states unrepresentable |
 | **Dataclass** | `Comment`, `Tag` | Lightweight value objects with auto-generated `__init__` and `__repr__` |
+
+
+---
+
+[← Back to Social / Feed Template](template.md)

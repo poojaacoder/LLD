@@ -429,3 +429,8 @@ lib.return_book(lending.lending_id)
 - **Enumeration** — `BookStatus`, `MemberStatus` make invalid states visible at a glance
 - **Composition** — `Library` composes `Catalog` and `Member` lists rather than inheriting from them
 - **Domain modeling** — `Lending` is a *join entity* with its own lifecycle, not just a foreign-key pair
+
+
+---
+
+[← Back to Booking System Template](template.md)

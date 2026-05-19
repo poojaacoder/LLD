@@ -614,3 +614,8 @@ The simplifier runs the greedy algorithm: match max creditor (Alice, +53.33) wit
 - **Value Object** — `ExpenseSplit` is a pure data container (no behaviour), making it easy to reason about
 - **Single Responsibility** — `Expense` stores what was spent, `SplitStrategy` calculates shares, `Group` tracks balances, `DebtSimplifier` minimises transactions
 - **Open/Closed Principle** — add `ShareBasedSplit` by subclassing `SplitStrategy`; zero changes to existing classes
+
+
+---
+
+[← Back to Marketplace / Matching Template](template.md)

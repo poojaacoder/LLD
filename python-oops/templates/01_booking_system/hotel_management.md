@@ -623,3 +623,8 @@ bill = service.check_out(reservation.reservation_id)
 - **State** — `RoomStatus` and `ReservationStatus` enums enforce valid transitions; invalid transitions raise errors immediately
 - **Single Responsibility** — `Room` handles physical availability, `Reservation` handles the booking lifecycle, `Bill` is a pure data record
 - **Open/Closed Principle** — add new cancellation policies by subclassing `CancellationPolicy`; no existing class changes
+
+
+---
+
+[← Back to Booking System Template](template.md)

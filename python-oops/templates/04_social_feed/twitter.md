@@ -714,3 +714,8 @@ svc.retweet(alice, t2)
 | **Facade** | `TwitterService` | Single clean API hides the complexity of feed strategies, hashtag indexing, and notifications |
 | **Value Object** | `Tweet` (`frozen=True` dataclass) | Immutable after creation; safe to cache and share across many feed lists |
 | **Enumeration** | `NotificationType` | Prevents magic strings; invalid notification types are unrepresentable |
+
+
+---
+
+[← Back to Social / Feed Template](template.md)

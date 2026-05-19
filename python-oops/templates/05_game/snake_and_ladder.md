@@ -625,3 +625,8 @@ Bob:   cell 3
 | **Open/Closed** | `BoardEntity` / `Snake` / `Ladder` | Add new cell types (power-ups, portals) as new subclasses — `Board.move()` never changes |
 | **Facade** | `Game` class | One entry point hides `Board`, `TurnManager`, `Dice`, and `Player` from the caller |
 | **Command** | Turn history (extension point) | Each turn's roll and position change can be stored as an immutable record for replay/undo |
+
+
+---
+
+[← Back to Game Template](template.md)

@@ -575,3 +575,8 @@ Final state: keys 1, 4, 3 in LRU → MRU order. Key 1 is the next to be evicted 
 - **Decorator** (conceptual) — `OrderedDict` adds LRU behaviour to a plain dict without subclassing it. The `move_to_end` and `popitem` wrappers decorate the underlying dict with recency tracking.
 - **Encapsulation** — `DoublyLinkedList` hides pointer manipulation. `LRUCache` exposes only `get` and `put`; the caller never sees `Node`, `prev`, `next`, or dummy sentinels.
 - **Single Responsibility** — `DoublyLinkedList` handles ordering, `dict` handles lookup, `LRUCache` coordinates them. Each class has one reason to change.
+
+
+---
+
+[← Back to Resource Management Template](template.md)

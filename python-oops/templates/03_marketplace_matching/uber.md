@@ -665,3 +665,8 @@ uber.rate_driver(trip, score=5, comment="Great driver!")
 - **Single Responsibility** — `Trip` stores trip facts, `MatchingStrategy` picks drivers, `PricingStrategy` calculates fare, `UberService` orchestrates
 - **Open/Closed Principle** — add `PremiumMatchingStrategy` or `SubscriptionPricing` by subclassing; zero changes to `UberService`
 - **Observer (extension point)** — to add real-time driver location updates, make `Driver` an observable subject and have `UberService` subscribe; the matching layer never needs to poll
+
+
+---
+
+[← Back to Marketplace / Matching Template](template.md)

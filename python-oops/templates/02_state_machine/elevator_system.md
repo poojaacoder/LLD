@@ -337,3 +337,8 @@ Each iteration calls `step()` on both elevators. Let's trace Elevator 0:
 - **Two-heap pattern** — Asymmetric priority queues for ascending vs descending traversal
 - **Enumeration** — `Direction` and `DoorStatus` make state transitions readable and exhaustive
 - **Single Responsibility** — `Elevator` moves itself; `ElevatorSystem` dispatches and coordinates
+
+
+---
+
+[← Back to State Machine Template](template.md)

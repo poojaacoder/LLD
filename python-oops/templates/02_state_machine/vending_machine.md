@@ -613,3 +613,8 @@ Inside `_dispense()`:
 - **State** — `VendingMachineState` enum + `VALID_TRANSITIONS` dict + `_transition_to()` gatekeeper enforce that the machine can only do what makes sense in its current stage
 - **Facade** — `VendingMachine` is the single public interface; customers and admins never touch `Inventory` or `PaymentHandler` directly
 - **Strategy** — Change calculation in `PaymentHandler.calculate_change()` uses the greedy algorithm, which could be swapped for dynamic programming without changing any other class
+
+
+---
+
+[← Back to State Machine Template](template.md)

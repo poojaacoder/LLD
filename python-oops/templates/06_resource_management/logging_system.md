@@ -515,3 +515,8 @@ The logger iterates over `[ConsoleHandler, FileHandler, RemoteHandler]` and call
 - **Chain of Responsibility** — `Logger.log()` passes the record to every handler in sequence. Each handler independently decides whether to process the record based on its own level threshold. No handler knows about any other.
 - **Observer** — `Logger` is the subject (publisher). `LogHandler` subclasses are the observers (subscribers). `add_handler` subscribes; `remove_handler` unsubscribes. The logger does not know what any handler does with the record.
 - **Strategy** — `LogFormatter` is the formatting strategy. Swap it to produce JSON logs, structured logs, or coloured terminal output — zero changes to `Logger` or any `LogHandler`.
+
+
+---
+
+[← Back to Resource Management Template](template.md)

@@ -2,7 +2,7 @@
 
 Low-Level Design (LLD) interviews test your ability to translate a real-world problem into clean, maintainable classes and relationships. Interviewers want to see that you know *when* to use inheritance vs composition, how to keep classes focused, and how to write code that is easy to extend without breaking what already works.
 
-This guide takes you from zero OOP knowledge all the way to solving full LLD problems like Parking Lot, Library System, and Movie Ticket Booking — the exact problems that show up at companies like Google, Amazon, and Flipkart.
+This guide takes you from zero OOP knowledge all the way to solving 18 full LLD problems across 6 design templates — the exact problems that show up at companies like Google, Amazon, Flipkart, and Uber.
 
 ---
 
@@ -33,14 +33,14 @@ Work through these files in order. Each one builds on the last.
 
 Most LLD interview problems fall into one of 6 templates. Learn the template first, then the problems become much easier. Each folder contains a `template.md` (skeleton + explanation) and worked problems that use it.
 
-| Template | Folder | Problems inside | Key patterns |
-|---|---|---|---|
-| Booking System | [templates/01_booking_system/](templates/01_booking_system/template.md) | Parking Lot, Library, BookMyShow | Strategy, State, Facade |
-| State Machine | [templates/02_state_machine/](templates/02_state_machine/template.md) | Elevator System | State, Enum + transition dict |
-| Marketplace / Matching | [templates/03_marketplace_matching/](templates/03_marketplace_matching/template.md) | Uber, Zomato, Splitwise *(coming soon)* | Strategy, Observer, Facade |
-| Social / Feed | [templates/04_social_feed/](templates/04_social_feed/template.md) | Twitter, LinkedIn *(coming soon)* | Observer, Strategy, Facade |
-| Game | [templates/05_game/](templates/05_game/template.md) | Chess, Tic-Tac-Toe *(coming soon)* | Command, Strategy, Template Method |
-| Resource Management | [templates/06_resource_management/](templates/06_resource_management/template.md) | LRU Cache, Rate Limiter *(coming soon)* | Singleton, Strategy, Chain of Responsibility |
+| Template | Problems (click to open) | Key patterns |
+|---|---|---|
+| [Booking System](templates/01_booking_system/template.md) | [Parking Lot](templates/01_booking_system/parking_lot.md) · [Library](templates/01_booking_system/library_management.md) · [BookMyShow](templates/01_booking_system/bookmyshow.md) · [Hotel](templates/01_booking_system/hotel_management.md) · [Flight](templates/01_booking_system/flight_booking.md) | Strategy, State, Facade |
+| [State Machine](templates/02_state_machine/template.md) | [Elevator](templates/02_state_machine/elevator_system.md) · [ATM](templates/02_state_machine/atm.md) · [Vending Machine](templates/02_state_machine/vending_machine.md) | State, Enum + transition dict |
+| [Marketplace / Matching](templates/03_marketplace_matching/template.md) | [Uber](templates/03_marketplace_matching/uber.md) · [Splitwise](templates/03_marketplace_matching/splitwise.md) | Strategy, Observer, Facade |
+| [Social / Feed](templates/04_social_feed/template.md) | [Twitter](templates/04_social_feed/twitter.md) · [Stack Overflow](templates/04_social_feed/stack_overflow.md) | Observer, Strategy, Facade |
+| [Game](templates/05_game/template.md) | [Tic-Tac-Toe](templates/05_game/tic_tac_toe.md) · [Chess](templates/05_game/chess.md) · [Snake & Ladder](templates/05_game/snake_and_ladder.md) | Command, Strategy, Template Method |
+| [Resource Management](templates/06_resource_management/template.md) | [LRU Cache](templates/06_resource_management/lru_cache.md) · [Rate Limiter](templates/06_resource_management/rate_limiter.md) · [Logging System](templates/06_resource_management/logging_system.md) | Singleton, Strategy, Chain of Responsibility |
 
 > **Tip:** Before reading any problem solution, read the template first. You will recognise the skeleton immediately and spend your energy on the domain logic, not the structure.
 

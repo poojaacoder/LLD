@@ -607,3 +607,8 @@ X |   |
 | **Template Method** | The `play()` game loop | Fixed structure, steps delegated to collaborators |
 | **Facade** | `Game` class | One entry point hides all internal complexity |
 | **Abstract class** | `Player`, `WinChecker` | Enforces a contract; any subclass works with `Game` |
+
+
+---
+
+[← Back to Game Template](template.md)

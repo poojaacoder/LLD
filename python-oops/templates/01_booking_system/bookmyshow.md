@@ -489,3 +489,8 @@ Returns S2 (REGULAR) and S4 (VIP) — the two seats Alice did not book.
 - **Dataclass for Value Objects** — `Movie`, `Seat`, `Screen`, `Theatre` are pure data with no behavior; `@dataclass` reduces boilerplate
 - **Single Responsibility** — `ShowSeat` manages seat state, `Booking` manages booking lifecycle, `BookingService` manages orchestration
 - **Enumeration** — `SeatType`, `SeatStatus`, `BookingStatus` make all states explicit and exhaustive
+
+
+---
+
+[← Back to Booking System Template](template.md)

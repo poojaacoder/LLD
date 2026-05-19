@@ -772,3 +772,8 @@ We trace the four key moves of the fastest checkmate in chess.
 | **Facade** | `Game` class | One entry point hides Board, Validator, Detector |
 | **Single Responsibility** | `Board` (state), `CheckDetector` (evaluation), `MoveValidator` (legality) | Each class has exactly one reason to change |
 | **Open/Closed Principle** | New piece = new subclass, zero changes elsewhere | Extend without modifying existing code |
+
+
+---
+
+[← Back to Game Template](template.md)

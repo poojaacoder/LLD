@@ -557,3 +557,8 @@ Elapsed = 1.0s. Tokens after refill: `min(3, 0.0 + 1.0 * 1.0) = 1.0`. Consume 1.
 - **Strategy** — `RateLimitStrategy` is the abstract interface; `TokenBucketStrategy`, `FixedWindowStrategy`, and `SlidingWindowStrategy` are the concrete strategies. `RateLimiterService` is the context that delegates to whichever strategy is registered for a user.
 - **Factory** (extension point) — you could add a `RateLimitStrategyFactory.create(type, **params)` method that instantiates the right strategy from a config string, hiding construction details from callers.
 - **Thread safety** — `threading.Lock` inside each strategy serialises all reads and writes to per-user state. The lock is acquired at the top of `is_allowed` and released when the `with` block exits, even if an exception is raised.
+
+
+---
+
+[← Back to Resource Management Template](template.md)

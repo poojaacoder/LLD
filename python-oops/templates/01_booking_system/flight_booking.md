@@ -755,3 +755,8 @@ refund = service.cancel_booking(booking.pnr)
 - **Factory** — `_generate_pnr()` encapsulates unique-ID creation; `build_aircraft()` encapsulates seat-map construction
 - **Single Responsibility** — `Aircraft` holds the seat map, `Flight` holds the journey + waitlist, `Booking` is the transaction record
 - **Open/Closed Principle** — add new refund policies by subclassing `RefundPolicy`; no existing class changes
+
+
+---
+
+[← Back to Booking System Template](template.md)

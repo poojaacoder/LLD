@@ -572,3 +572,8 @@ atm.eject_card()
 - **State (Enum + transition dict)** — `ATMState` enum plus `VALID_TRANSITIONS` dict enforce the lifecycle; `_transition_to()` is the single gatekeeper
 - **Facade** — `ATM` is the single public entry point; callers never touch `Card`, `Account`, or `CashDispenser` directly
 - **Command (transaction history)** — Each `Transaction` dataclass is an immutable record of an operation, stored on `Account` — this is the Command pattern's "log of executed commands"
+
+
+---
+
+[← Back to State Machine Template](template.md)

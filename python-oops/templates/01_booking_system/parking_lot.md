@@ -433,3 +433,8 @@ lot.exit(t1.ticket_id)
 - **Enumeration** — `VehicleType`, `SpotSize` prevent magic strings and invalid states
 - **Single Responsibility** — `ParkingSpot` handles occupancy, `Ticket` handles duration, `PricingStrategy` handles fees
 - **Open/Closed Principle** — add new pricing by subclassing `PricingStrategy`, no changes to existing code
+
+
+---
+
+[← Back to Booking System Template](template.md)
